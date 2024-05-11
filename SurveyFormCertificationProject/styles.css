@@ -1,0 +1,29 @@
+body {
+    background-color: #124394;
+  color: #FFFFFF;
+  }
+  
+  /* Apply to all form controls for consistent styling */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select,
+  textarea {
+    display: block; /* Makes element occupy its own line */
+    width: 50%; /* Uses full container width */
+    margin-bottom: 15px; /* Adds spacing between elements */
+  }
+  
+  /* Style for radio buttons and checkboxes wrapper for line-break */
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block; /* Makes labels also occupy their own line for clarity */
+  }
+  
+  textarea {
+    height: 100px; /* Adjust height of textarea */
+  }
+  
